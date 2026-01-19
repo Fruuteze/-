@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Психологическая помощь</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <h1>Психологическая помощь</h1>
+                </div>
+                <div class="header-contacts">
+                    <a href="tel:+79001234567" class="contact-link">+7 (900) 123-45-67</a>
+                    <a href="mailto:info@psychologist.ru" class="contact-link">info@psychologist.ru</a>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О специалисте</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="pricing.html">Стоимость</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Контакты</h1>
+                <p class="page-subtitle">Свяжитесь со мной удобным для вас способом</p>
+            </div>
+        </section>
+
+        <section class="contacts-content">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <!-- Контактная информация -->
+                    <div class="contact-info">
+                        <h2>Контактная информация</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Телефон</h3>
+                                <p><a href="tel:+79001234567">+7 (900) 123-45-67</a></p>
+                                <p class="contact-note">Работаю с 10:00 до 20:00 по будням</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@psychologist.ru">info@psychologist.ru</a></p>
+                                <p class="contact-note">Отвечаю в течение 24 часов</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Адрес офиса</h3>
+                                <p>г. Санкт-Петербург, г. Колпино, бр. Трудящихся, д. 29/</p>
+                                <p class="contact-note">Ближайшее метро: [Название станции]</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">💻</div>
+                            <div class="contact-details">
+                                <h3>Онлайн-консультации</h3>
+                                <p>Доступны консультации по видеосвязи</p>
+                                <p class="contact-note">Платформы: Zoom, Telegram</p>
+                            </div>
+                        </div>
+
+                        <!-- Социальные сети -->
+                        <div class="social-section">
+                            <h3>Социальные сети</h3>
+                            <div class="social-links-large">
+                                <a href="#" class="social-link-large" target="_blank">
+                                    <span class="social-icon">VK</span>
+                                    <span>ВКонтакте</span>
+                                </a>
+                                <a href="#" class="social-link-large" target="_blank">
+                                    <span class="social-icon">TG</span>
+                                    <span>Telegram</span>
+                                </a>
+                                <a href="#" class="social-link-large" target="_blank">
+                                    <span class="social-icon">IG</span>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Форма записи -->
+                    <div class="contact-form-wrapper">
+                        <h2>Записаться на консультацию</h2>
+                        <form class="contact-form" id="appointmentForm">
+                            <div class="form-group">
+                                <label for="appointment-name">Ваше имя *</label>
+                                <input type="text" id="appointment-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-phone">Телефон *</label>
+                                <input type="tel" id="appointment-phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-email">Email</label>
+                                <input type="email" id="appointment-email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-date">Желаемая дата</label>
+                                <input type="date" id="appointment-date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-time">Удобное время</label>
+                                <select id="appointment-time" name="time">
+                                    <option value="">Выберите время</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-service">Тип консультации</label>
+                                <select id="appointment-service" name="service">
+                                    <option value="">Выберите услугу</option>
+                                    <option value="individual">Индивидуальная консультация</option>
+                                    <option value="family">Семейная терапия</option>
+                                    <option value="group">Групповая терапия</option>
+                                    <option value="online">Онлайн-консультация</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-message">Дополнительная информация</label>
+                                <textarea id="appointment-message" name="message" rows="4" placeholder="Расскажите о вашей ситуации или задайте вопросы"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Карта (заглушка) -->
+                <div class="map-section">
+                    <h2>Как добраться</h2>
+                    <div class="map-placeholder">
+                        <p>📍 Карта будет загружена здесь</p>
+                        <p>г. Москва, ул. Примерная, д. 10, офис 5</p>
+                        <!-- Здесь можно вставить код карты Яндекс.Карт или Google Maps -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О специалисте</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="pricing.html">Стоимость</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+79001234567">+7 (900) 123-45-67</a></li>
+                        <li><a href="mailto:info@psychologist.ru">info@psychologist.ru</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank" aria-label="ВКонтакте">VK</a>
+                        <a href="#" class="social-link" target="_blank" aria-label="Telegram">TG</a>
+                        <a href="#" class="social-link" target="_blank" aria-label="Instagram">IG</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Психологическая помощь. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

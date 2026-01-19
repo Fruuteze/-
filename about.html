@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О специалисте | Психологическая помощь</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <h1>Психологическая помощь</h1>
+                </div>
+                <div class="header-contacts">
+                    <a href="tel:+79001234567" class="contact-link">+7 (900) 123-45-67</a>
+                    <a href="mailto:info@psychologist.ru" class="contact-link">info@psychologist.ru</a>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html" class="active">О специалисте</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="pricing.html">Стоимость</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">О специалисте</h1>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&h=600&fit=crop" alt="Психолог" class="img-responsive">
+                    </div>
+                    <div class="about-text">
+                        <h2>Добро пожаловать!</h2>
+                        <p>Меня зовут [Имя Фамилия], и я практикующий психолог с многолетним опытом работы. Моя миссия — помочь людям обрести внутреннюю гармонию, справиться с жизненными трудностями и найти путь к счастливой и полноценной жизни.</p>
+                        
+                        <h3>Образование</h3>
+                        <ul>
+                            <li><strong>Высшее образование:</strong> [Название университета], факультет психологии, специальность "Клиническая психология"</li>
+                            <li><strong>Дополнительное образование:</strong> Специализация в области когнитивно-поведенческой терапии</li>
+                            <li><strong>Повышение квалификации:</strong> Регулярное участие в профессиональных семинарах и конференциях</li>
+                            <li><strong>Сертификаты:</strong> [Название сертификатов и программ]</li>
+                        </ul>
+
+                        <h3>Опыт работы</h3>
+                        <p>Более 10 лет практики в области психологического консультирования. За это время я помогла сотням людей справиться с различными жизненными ситуациями:</p>
+                        <ul>
+                            <li>Работа с личностными кризисами и депрессивными состояниями</li>
+                            <li>Консультирование по вопросам семейных и межличностных отношений</li>
+                            <li>Помощь в решении профессиональных проблем и карьерных вопросов</li>
+                            <li>Работа с тревожными расстройствами и фобиями</li>
+                        </ul>
+
+                        <h3>Методы работы</h3>
+                        <p>В своей работе я использую комплексный подход, сочетая различные методы психотерапии:</p>
+                        <ul>
+                            <li><strong>Когнитивно-поведенческая терапия (КПТ)</strong> — для работы с негативными мыслями и поведенческими паттернами</li>
+                            <li><strong>Гештальт-терапия</strong> — для осознания и принятия своих чувств и потребностей</li>
+                            <li><strong>Арт-терапия</strong> — для творческого самовыражения и работы с подсознанием</li>
+                            <li><strong>Телесно-ориентированная терапия</strong> — для работы с телесными зажимами и стрессом</li>
+                        </ul>
+
+                        <h3>Мой подход</h3>
+                        <p>Я верю, что каждый человек обладает внутренними ресурсами для решения своих проблем. Моя задача — помочь вам их обнаружить и активировать. В работе я придерживаюсь принципов:</p>
+                        <ul>
+                            <li><strong>Безоценочность</strong> — принимаю вас таким, какой вы есть</li>
+                            <li><strong>Конфиденциальность</strong> — все, что обсуждается на сессиях, остается между нами</li>
+                            <li><strong>Индивидуальный подход</strong> — программа работы подбирается с учетом ваших особенностей и потребностей</li>
+                            <li><strong>Профессионализм</strong> — постоянное развитие и повышение квалификации</li>
+                        </ul>
+
+                        <div class="about-cta">
+                            <a href="contacts.html" class="btn btn-primary">Записаться на консультацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма обратной связи -->
+        <section class="contact-form-section">
+            <div class="container">
+                <h2 class="section-title">Свяжитесь со мной</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О специалисте</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="pricing.html">Стоимость</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+79001234567">+7 (900) 123-45-67</a></li>
+                        <li><a href="mailto:info@psychologist.ru">info@psychologist.ru</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank" aria-label="ВКонтакте">VK</a>
+                        <a href="#" class="social-link" target="_blank" aria-label="Telegram">TG</a>
+                        <a href="#" class="social-link" target="_blank" aria-label="Instagram">IG</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Психологическая помощь. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
